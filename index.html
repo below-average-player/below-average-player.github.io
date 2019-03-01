@@ -1,38 +1,160 @@
+<!DOCTYPE html>
 <html>
-<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-body {
-  background-color: lightblue;
-  font-family: Coiny, cursive;
-  text-align: center;
-  list-style-position: inside;
-}
-
-
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
-</head>
+<body class="w3-light-grey">
 
-<body>
-<h1 class="cursive">Hi I am Cody</h1>
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
 
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Below Average Player</b></h1>
+  <p>Welcome to <span class="w3-tag"> Cody's </span> Blog</p>
+</header>
 
-<img class="_6q-tv" src="https://instagram.fsin6-1.fna.fbcdn.net/vp/8a4d0890c66e2f1d165a4a954e614ad4/5CC95711/t51.2885-19/s150x150/47183749_298921820753118_8736718196012220416_n.jpg?_nc_ht=instagram.fsin6-1.fna.fbcdn.net" alt="the_below_average_player's profile picture">
+<!-- Grid -->
+<div class="w3-row">
 
-<h2>My hobbies</h2>
-  <li>Game (WoT/OW/BFV)</li>
-  <li>Sleep</li>
-  <li>Eat</li>
-</ul>  
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="/w3images/woods.jpg" alt="Nature" style="width:100%">
+    <div class="w3-container">
+      <h3><b>My Career</b></h3>
+      <h5> Gaming on PC Since <span class="w3-opacity">2009</span></h5>
+    </div>
 
-<h2>Goals in 2019</h2>
-  <li>Game less</li>
-  <li>Eat less</li>
-  <li>Sleep more</li>
-</ol> 
+    <div class="w3-container">
+      <p><b>22/05/2009</b> I recieved my first PC game - PvZ, from my father. I played through the entire game within the year.</p>
+      <p><b>12/08/2010</b> I started playing my first MMO - World of Tanks, on the very first day of its release.</p>
+      <p><b>03/02/2011</b> I got my 3rd game - Age of Empires III. This one took me a little longer: I played through the hardest difficulty (w/o cheats) after 2 years. </p>
+      <p><b>24/12/2013</b> This day saw the transition of me from playing strategy games to action games as I received Battlefield IV for Xmas.</p>
+      <p><b>2015</b> I shifts my main focus onto WoT as it matures and played my 10,000th match.</p>
+      <p><b>2016</b> I hit 60% win ratio in WoT and becomes a Unicum (top 5%).</p>
+      <p><b>2017</b> I tried out Battle Royale games but quickly lost interest.</p>
+      <p><b>2018</b> I played my 100,000th game in WoT but disappointed at the P2W situation. (declined to be a community contributor)</p>
+      <p><b>2019</b> I started revisiting the Battlefield series</p>
+      <p>To Be Continued...</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
 
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <h3><b>Looking Forward</b><h3>
+      <h5>My future career</h5>
+    </div>
 
+    <div class="w3-container">
+      <p>I invested over 15000 hours on World of Tanks, a game which I fell in love with. Over the past few years, I have been invited by many WoT eSport teams in Asia, as well as various WoT tournaments. However, given the status that I am sill a student, I declined all of these offers. Thus, I hope that I can get to participate in one of the tournaments in the future - when I am old enough to commit myself.</p>
+      <p>As of now, I have no intention of becoming a professional eSports player and would like to keep PC gaming as my hobby.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="/w3images/avatar_g.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>About me<h4>
+      <p>A dedicated PC gamer for the past decade, and for decades to come.</p>
+      <p><b>Age:</b> 15 (as of 1st March 2019)</p>
+      <p><b>Height:</b> 75cm</p>
+      <p><b>Weight:</b> I will never tell you that I'm 75kg</p>
+      <p><b>Hobbies:</b> Gaming, Reading, Mugging</p>
+      <p>Gaming has been my passion for nearly a decade; looking back, I am immensely grateful to my father, who bought me the first PC games back in the day where computer gaming was hardly a thing. It's him who taught me to game, and at the same time, incorporated the value of self-control into me. I am proud to be who I am today and I'm grateful to everyone who made this possible.</p>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Popular Posts</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Lorem</span><br>
+        <span>Sed mattis nunc</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Ipsum</span><br>
+        <span>Praes tinci sed</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Dorum</span><br>
+        <span>Ultricies congue</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Mingsum</span><br>
+        <span>Lorem ipsum dipsum</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
+    </p>
+    </div>
+  </div>
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
 </body>
 </html>
